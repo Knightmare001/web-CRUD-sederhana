@@ -1,7 +1,7 @@
 
 # Web CRUD Sederhana
 
-Membuat Web menggunakan Golang untuk mengelola data mahasiswa secara online yang memungkinkan pengguna untuk melakukan operasi CRUD (Create, Read, Update, Delete) pada data mahasiswa. Sebelum masuk ke halaman utama, pengguna diwajibkan untuk login atau melakukan registrasi terlebih dahulu. Proyek ini dibuat sebagai bagian dari tugas bahan interview untuk GGUC.
+Membuat Web menggunakan Golang untuk mengelola data mahasiswa yang memungkinkan pengguna untuk melakukan operasi CRUD (Create, Read, Update, Delete) pada data mahasiswa. Sebelum masuk ke halaman utama, pengguna diwajibkan untuk login atau melakukan registrasi terlebih dahulu. Proyek ini dibuat sebagai bagian dari tugas bahan interview untuk GGUC.
 
 
 ## Stack
