@@ -16,13 +16,17 @@ Membuat Web menggunakan Golang untuk mengelola data mahasiswa yang memungkinkan 
 
 ## How to Install
 
-- clone repository
+1. clone repository
 
-`https://github.com/Knightmare001/web-CRUD-sederhana.git`
+```bash
+https://github.com/Knightmare001/web-CRUD-sederhana.git
+```
 
-- import database
+2. import database `mahasiswa.sql`
 
-- buka file main.go
+3. buka file main.go
 
-- lalu run main.go tersebut
-`go run .`
+4. lalu run main.go tersebut
+```bash
+go run .
+```
