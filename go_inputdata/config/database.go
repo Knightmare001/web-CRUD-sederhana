@@ -8,6 +8,6 @@ import (
 
 func DBConn() (db *sql.DB, err error) {
 
-	db, err = sql.Open("mysql", "root:admin123@/mahasiswa")
+	db, err = sql.Open("mysql", "root:@/mahasiswa")
 	return
 }
