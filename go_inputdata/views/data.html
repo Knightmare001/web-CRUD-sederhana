@@ -1,0 +1,19 @@
+{{$nomor := 0}} {{range .inputdata}}
+<tr>
+  {{$nomor = increment $nomor 1}}
+  <td>{{ $nomor }}</td>
+  <td>{{ .Name_person }}</td>
+  <td>{{ .Npm }}</td>
+  <td>{{ .Gender }}</td>
+  <td>{{ .Birth_date }}</td>
+  <td>{{ .Address }}</td>
+  <td>
+    <button data-id="{{ .Id }}" class="btn btn-danger btn-sm delete-data">
+      Delete
+    </button>
+    <button data-id="{{ .Id }}" class="btn btn-warning btn-sm edit-data">
+      Edit
+    </button>
+  </td>
+</tr>
+{{end}}
