@@ -22,7 +22,7 @@ Membuat Web menggunakan Golang untuk mengelola data mahasiswa yang memungkinkan 
 https://github.com/Knightmare001/web-CRUD-sederhana.git
 ```
 
-2. import database `mahasiswa.sql`
+2. import `mahasiswa.sql` ke database
 
 3. buka file main.go
 
